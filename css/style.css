@@ -1,0 +1,202 @@
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;                           
+  padding: 2px;             
+  font: 12px sans-serif; 
+  color:black;
+  background: lightsteelblue;   
+  border: 0px;  
+  pointer-events: auto;
+  border-radius: 8px;     
+}
+
+circle {
+  stroke: #333;
+  stroke-width: 1.5px;
+  display: none;
+}
+
+image{
+	display: none;
+}
+
+circle.circle{
+	display: block;
+}
+
+image.image{
+	display: block;
+	border: 2px solid #e5e5e5;
+}
+
+text.skills{
+	font-weight: bold;
+}
+
+text.name{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+text.company{
+	font-size: 10px;
+}
+
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #0854F5;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #0854F5;
+	box-shadow:inset 0px 1px 0px 0px #0854F5;
+	background-color:#0854F5;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0px;
+	border:1px solid #0854F5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:66px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #0854F5;
+}.classname:hover {
+	background-color:#0854F5;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+#step1{
+	position: relative;
+	left:10px;
+	top:135px;
+}
+#step2{
+	display: none;
+	position: absolute; 
+	top: 101px;
+	width: 100%;
+	
+}
+#step3{
+	display: none;
+	position: absolute; 
+	top: 146px;
+	text-align: center;
+	width: 100%;
+	
+}
+
+#loginbadge{
+	display: inline-table;
+	width: 60%;
+}
+
+.graph_operation{
+	position: relative;
+	top: -20px;
+	margin: 0 auto;
+	width: 180px;
+}
+
+#loginbadge h2, .graph_operation h2{
+	text-align: left;
+}
+.graph1{
+	position: relative;
+	display: none;
+	background-color:#FCFBF8;
+	width: 100%;
+}
+
+.graphFullWindow{
+    position: fixed;
+	background-color:#FCFBF8;
+	z-index: 500000;
+	height:100%;
+	width: 100%;
+    top: 0px;
+    left: 0px;
+	right:0px;
+} 
+.wrapperFullWindow{
+}
+.wrapperNormal{
+	position: relative;
+	top: 200px;
+	display: none;
+	background-color:#FCFBF8;
+	height: 100px;
+	width: 100%;
+    margin: auto;
+}
+
+#disconnect{
+	position: absolute;
+	top: 20px;
+	right: 100px;
+}
+#fullScreen{
+	position: absolute;
+	top: 20px;
+	right: 206px;
+}
+#apply{
+	position: absolute;
+	top: 20px;
+	left: 267px;
+}
+#medropDown{
+	position: absolute;
+	top: 45px;
+	left: 50px;
+}
+.table_log{
+	border-collapse: collapse;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.table_log tr td{
+	text-align: center;
+}
+
+.skills{
+	padding: 0 7px 0 2px;
+	display:block;
+	float:left;
+}
+
+.input_skills{
+	float:left;
+}
+
+.spinner{
+	margin: 0 auto;
+	top: 150px;
+}
+
+

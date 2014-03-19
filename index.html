@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ICE.JS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+		<script src="js/d3.v3.min.js"></script>
+		<script src="js/spin.js"></script>
+		<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+			api_key: **************
+			onLoad: onLinkedInLoad
+			authorize: true
+		</script>	
+		<!-- Le styles -->
+		<link rel="stylesheet" type="text/css" href="dependencies/css/bootstrap.css" />
+  		<link rel="stylesheet" type="text/css" href="css/bootstrap-dropdown-checkbox.css"  />
+  		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+		
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<h1>Discover your LinkedIn peers</h1>
+				</div>
+			</div>
+		</div>
+		<div id="step1">	
+			<h2>Connect you with: </h2>
+			<table cellpadding=20 class="table_log">
+				<tr>
+					<td>
+						<img src="img/linkedin_icon.jpg" class="img-rounded">
+					</td>
+					<td>
+						<script type="IN/Login">
+						<img src="img/check.png" class="img-rounded"/>
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/fmi.jpg" class="img-rounded"/>
+					</td>
+					<td>
+					</td>
+					<td>
+						<button id="generate" href="#" type="submit" class ="btn btn-primary btn-lg" onClick="change()" disabled>Generate Graph</button>
+					</td>
+				</tr>	
+			</table>
+		</div>
+
+		<div id="step2">
+
+			<div id="loginbadge"></div>
+			<div id="skills" class="myDropdownCheckboxBasic"></div>
+			<div  id="companies" class="checkBoxCompagnies"></div>
+			<div class="graph_operation">
+				<div class="btn-group">
+					<input type="button" class="btn btn-default" value="ShowMore"> 
+					<input type="button" class="btn btn-default" value="ShowLess">
+				</div>
+			</div>
+			<div id="apply"></div>
+			<div id="fullScreen"></div>
+			<div id="disconnect"></div>
+			
+		</div>
+		<div id="step3">
+		<p>We are sorry, we could not execute this command for the following reason: Maximun request number is reached</p>
+		</div>
+		
+	</body>
+	<script src="dependencies/js/jquery.min.js"></script>
+	<script src="js/bootstrap-dropdown-checkbox.js"></script>
+	<script src="js/loader.js"></script>
+	<script src="js/linkedInScript.js"></script>
+</html>
+		
+
